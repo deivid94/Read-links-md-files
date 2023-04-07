@@ -1,0 +1,14 @@
+{
+  "name": "allura_odejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Deivid Martins <md031194@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev":"node index.js"
+  },
+  "dependencies": {
+    "chalk": "5.0.1"
+  }
+}
