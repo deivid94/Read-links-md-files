@@ -1,4 +1,7 @@
 <h1 align="center">about this project</h1> 
+   <p align="center">
+  import and read a .md file, extract the links through a regex, and return an object with the title of that URL and the link. this code also validates if the URL`s are really valid links.
+  </p>
  
  <div align="center">
  <p> 
@@ -17,10 +20,6 @@
 
 <blockquote align="center"> “Faça seu melhor, mas sempre com prazo de entrega!”</blockquote>
 <br>
-
-  ## About this project
-  <p align="center">
-  import and read a .md file, extract the links through a regex, and return an object with the title of that URL and the link. this code also validates if the URL`s are really valid links.
 
 <p align="center">
  <img alt="" src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white">
