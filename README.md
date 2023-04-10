@@ -1,6 +1,6 @@
-<h1 align="center">about this project</h1> 
+<h1 align="center">Sobre esse projeto</h1> 
    <p align="center">
-  import and read a .md file, extract the links through a regex, and return an object with the title of that URL and the link. this code also validates if the URL`s are really valid links.
+  importe e leia um arquivo .md, extraia os links por meio de um regex e retorne um objeto com o título desse URL e o link. este código também valida se as URL`s são links realmente válidos
   </p>
  
  <div align="center">
@@ -15,7 +15,7 @@
  <h1 align="center">
   
 
-  :satellite:<p> Locate links in files .md
+  :satellite:<p> Localize e extraia links  em arquivos .md
 </h1>
 
 <blockquote align="center"> “Faça seu melhor, mas sempre com prazo de entrega!”</blockquote>
@@ -37,32 +37,40 @@
 ```bash
 git clone https://github.com/deivid94/Read-links-md-files.git
 
-## Open project with or IDE and install dependencies:
+## Abra o projeto com sua IDE e instale as depenedencias:
   
 
-##Download  and install Nodejs with NPM
+##Baixe e instale o node com o Npm ou Yarn
 
 https://nodejs.org/en/download
 
-# verify version
+# verifique a versao
  
  node --version 
 
- #Open this project with your IDE
 
- #Install dependencies (opcional)
+
+ #A instalacao da depenedencia chalk é opcional
     
  npm install chalk@5.0.1 --save-exact
 
-#run project
-#navegate to the patch  
+#rRode o projeto
+#navegue ate o diretorio aonde o projeto foi salvo
+
 cd "/patch/to/save/this/project/allura nodejs"
 
-dev yarn
+
+#agora basta passa o caminho aonde o aqruivo .md esta salvo no seu pc via parametro na execucao do script
+
+dev yarn arquivos/texto.md
 
 # or
 
-node index.js
+node src/index.js arquivos/texto.md  
+
+#outro exemplo
+
+node src/index.js C:/Downloads/arquivo.md
 
 ```
 
